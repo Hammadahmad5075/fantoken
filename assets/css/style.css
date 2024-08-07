@@ -155,7 +155,7 @@ backdrop-filter: blur(60px);
 
   .fade-image {
     
-    animation: fade 15s infinite;
+    animation: fade 4s infinite;
 }
 
 @keyframes fade {
