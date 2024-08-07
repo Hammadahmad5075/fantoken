@@ -111,7 +111,23 @@ body.menu-open {
     margin-bottom:30px;
     text-decoration:none;
   }
-
+  @media screen and (max-width: 700px) {
+    #burger-menu span {
+      width: 15px;
+      top: 13px;
+      height: 2px;
+    }
+    #burger-menu span:before {
+      width: 25px;
+      top: -6px;
+      height: 2px;
+    }
+    #burger-menu span:after {
+      width: 10px;
+      top: 6px;
+      height: 2px;
+    }
+  }
   /***** NavBar Css Start ****/
   /***** Hero Section Css Start ****/
   .glass-bg{

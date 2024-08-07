@@ -12,13 +12,13 @@
   </head>
   <body class="bg-black">
     <!---- Navbar Code Start  ---->
-    <div class="flex items-center justify-between px-[5%] mt-12">
-      <img src="./assets/img/logo.png" alt="" />
+    <div class="flex items-center justify-between px-[5%] mt-5 md:mt-12">
+      <img src="./assets/img/logo.png" class="w-[10%] md:w-auto" alt="" />
       <div class="flex items-center gap-4 md:gap-12">
         <div class="">
           <a
             href=""
-            class="text-white popins text-xl font-semibold uppercase navborder-g rounded-full px-4 py-4 md:px-10 md:py-[22px] bg-[url('./assets/img/navbtn-bg.png')] bg-cover bg-no-repeat"
+            class="text-white popins text-base lg:text-xl font-semibold uppercase navborder-g rounded-full px-4 py-4 md:px-10 md:py-[22px] bg-[url('./assets/img/navbtn-bg.png')] bg-cover bg-no-repeat"
           >
             whitepaper
             <i class="fa-solid fa-download ml-5"></i>
@@ -47,7 +47,7 @@
     <section class="px-[5%] relative">
       <img
         src="./assets/img/hero-bg.png"
-        class="absolute z-0 top-72 md:top-10 lg:top-0 md:right-20 xl:right-56 mix-blend-screen w-[70%] md:w-[40%] 2xl:w-auto move-image-horizontal"
+        class="absolute z-0 top-60 md:top-10 lg:top-0 right-16 md:right-20 xl:right-56 mix-blend-screen w-[80%] md:w-[40%] 2xl:w-auto move-image-horizontal"
         alt=""
       />
       <img
@@ -60,20 +60,20 @@
         class="absolute -z-10 right-0 top-60 md:-top-20 lg:-top-80 2xl:top-20 fade-image"
         alt=""
       />
-      <div class="pb-20">
+      <div class="pb-10 md:pb-20">
         <div
-          class="flex flex-col md:flex-row justify-between items-start pt-20 2xl:pt-[250px]"
+          class="flex flex-col md:flex-row justify-between items-start pt-10 2xl:pt-[250px]"
         >
           <div data-aos="fade-right">
             <h1
-              class="text-[40px] lg:text-[60px] xl:text-[80px] 2xl:text-[120px] poor-story fomt-normal leading-[60px] xl:leading-[100px] 2xl:leading-[130px] uppercase text-white"
+              class="text-[40px] lg:text-[60px] xl:text-[80px] 2xl:text-[120px] poor-story fomt-normal leading-[40px] xl:leading-[100px] 2xl:leading-[130px] uppercase text-white"
             >
               Fan Tokens A <br class="hidden lg:block" />
               New Era in <br class="hidden lg:block" />
               Music
             </h1>
             <p
-              class="text-lg lg:text-[20px] text-white popins font-extralight leading-[32px] lg:leading-[50px]"
+              class="text-[15px] lg:text-[20px] text-white popins font-extralight leading-[24px] lg:leading-[50px] mt-3 md:mt-0"
             >
               Discover a new era in the music industry where artists
               <br class="hidden lg:block 2xl:hidden" />
@@ -83,7 +83,7 @@
           </div>
 
           <div
-            class="xl:basis-1/2 xl:basis-auto glass-bg rounded-[20px] lg:rounded-[40px] bg-[url('./assets/img/cardmbl-bg.png')] lg:bg-[url('./assets/img/card-bg.png')] bg-cover bg-no-repeat mt-10 lg:mt-0"
+            class="xl:basis-1/2 xl:basis-auto glass-bg rounded-[20px] lg:rounded-[40px] bg-[url('./assets/img/cardmbl-bg.png')] lg:bg-[url('./assets/img/card-bg.png')] bg-cover bg-no-repeat mt-60 lg:mt-0"
             data-aos="fade-left"
             >
             <p
@@ -156,7 +156,7 @@
     </div>
     <!---- Hero Section Code End  ---->
     <!---- About Section Code Start  ---->
-    <section class="relative py-52" id="about">
+    <section class="relative py-40 md:py-52" id="about">
       <img
         src="./assets/img/glow3.png"
         class="absolute -z-10 left-0 top-72 fade-image"
@@ -179,7 +179,7 @@
       </h2>
       <div class="flex justify-center">
         <p
-          class="popins text-white font-light text-base lg:text-lg xl:text-[20px] w-[95%] md:w-[70%] lg:w-[70%] xl:w-[70%] 2xl:w-[55%] text-center leading-[30px] lg:leading-[35px] xl:leading-[50px]"
+          class="popins text-white font-light text-[15px] lg:text-lg xl:text-[20px] w-[95%] md:w-[70%] lg:w-[70%] xl:w-[70%] 2xl:w-[55%] text-center leading-[30px] lg:leading-[35px] xl:leading-[50px]"
           data-aos="fade-up"
         >
           Fan Token is a groundbreaking platform using blockchain to create a
@@ -189,14 +189,15 @@
           created, shared, and enjoyed.
         </p>
       </div>
-      <img src="./assets/img/voice.png" class="mt-5 lg:mt-10 xl:mt-20" alt="" />
+      <img src="./assets/img/voice.png" class="hidden lg:block mt-5 lg:mt-10 xl:mt-20" alt="" />
+      <img src="./assets/img/voice-mbl.png" class="block lg:hidden mt-5 lg:mt-10 xl:mt-20" alt="" />
     </section>
     <!---- About Section Code End  ---->
     <!---- Feature Section Code Start  ---->
-    <section class="px-[5%] my-20" id="feature" data-aos="fade-up">
+    <section class="px-[5%] my-0 md:my-20" id="feature" data-aos="fade-up">
       <div class="grid grid-cols-1 lg:grid-cols-3 items-center">
         <div
-          class="lg:pl-10 lg:col-span-2 border-r border-[#333333] border-b border-[#333333] py-10"
+          class="lg:pl-10 lg:col-span-2 lg:border-r border-[#333333] lg:border-b border-[#333333] py-0 pb-10 md:py-10"
         >
           <h2
             class="text-white poor-story uppercase text-left text-[40px] lg:text-[50px] xl:text-[60px] 2xl:text-[80px]"
@@ -204,7 +205,7 @@
             Platform Features
           </h2>
           <p
-            class="popins text-white font-light text-base lg:text-lg xl:text-[20px] text-left leading-normal xl:leading-[50px]"
+            class="popins text-white font-light text-base lg:text-lg xl:text-[20px] text-left leading-[26px] xl:leading-[50px]"
           >
             Fan Token offers a suite of innovative features designed to empower
             artists and engage fans like never <br class="hidden lg:block" />
@@ -213,43 +214,53 @@
           </p>
         </div>
         <div class="lg:pl-10">
-          <img src="./assets/img/sales.png" alt="" />
-          <h4
-            class="popins font-semibold text-lg lg:text-[20px] xl:text-[24px] text-white py-5"
-          >
-            Direct NFT Sales
-          </h4>
+          <div class="flex flex-row lg:flex-col items-center gap-5">
+            <img src="./assets/img/sales.png" class="w-7 md:w-auto" alt="" />
+            <h4
+              class="popins font-semibold text-lg lg:text-[20px] xl:text-[24px] text-white py-5"
+            >
+              Direct NFT Sales
+            </h4>
+          </div>
+          
           <p class="popins font-light text-base text-[#C1C1C1]">
             Artists sell music NFTs directly to fans, ensuring fair revenue.
           </p>
         </div>
-        <div class="lg:pl-10 border-r border-[#333333] py-10">
-          <img src="./assets/img/engagement.png" alt="" />
+        <div class="lg:pl-10 lg:border-r border-[#333333] py-0 pt-6 md:py-10">
+          <div class="flex flex-row lg:flex-col items-center gap-5">
+
+          <img src="./assets/img/engagement.png" class="w-7 md:w-auto" alt="" />
           <h4
             class="popins font-semibold text-lg lg:text-[20px] xl:text-[24px] text-white py-5"
           >
             Fan Engagement
           </h4>
+          </div>
           <p class="popins font-light text-base text-[#C1C1C1]">
             Fans join live auctions, meet artists, and earn royalties.
           </p>
         </div>
-        <div class="lg:pl-10 border-r border-[#333333] py-10">
-          <img src="./assets/img/royalities.png" alt="" />
+        <div class="lg:pl-10 lg:border-r border-[#333333] py-6 md:py-10">
+          <div class="flex flex-row lg:flex-col items-center gap-5">
+          <img src="./assets/img/royalities.png" class="w-7 md:w-auto" alt="" />
           <h4
             class="popins font-semibold text-lg lg:text-[20px] xl:text-[24px] text-white py-5"
           >
             Transparent Royalties
           </h4>
+          </div>
           <p class="popins font-light text-base text-[#C1C1C1]">
             Blockchain ensures clear, automated royalty distribution.
           </p>
         </div>
-        <div class="lg:pl-10 border-t border-[#333333] py-10">
-          <img src="./assets/img/market.png" alt="" />
-          <h4 class="popins font-semibold text-[24px] text-white py-5">
+        <div class="lg:pl-10 lg:border-t border-[#333333] md:py-10">
+          <div class="flex flex-row lg:flex-col items-center gap-5">
+          <img src="./assets/img/market.png" class="w-7 md:w-auto" alt="" />
+          <h4 class="popins font-semibold text-lg lg:text-[20px] xl:text-[24px] text-white py-5">
             AI-Powered Marketplace
           </h4>
+          </div>
           <p class="popins font-light text-base text-[#C1C1C1]">
             AI offers personalized music and real-time translation.
           </p>
@@ -258,12 +269,12 @@
     </section>
     <!---- Feature Section Code End  ---->
     <!---- Benefit Section Code Start  ---->
-    <section class="px-[5%] py-40" id="benefits">
+    <section class="px-[5%] py-0 pb-20 md:py-40" id="benefits">
       <div class="grid grid-cols-1 lg:grid-cols-3">
         <div class="relative flex justify-center" data-aos="flip-left">
           <img
             src="./assets/img/shape-bg.png"
-            class="absolute z-0 w-[88%] md:w-auto 2xl:w-[88%]"
+            class="absolute z-0 w-[100%] md:w-auto 2xl:w-[88%]"
             alt=""
           />
           <img
@@ -272,7 +283,7 @@
             alt=""
           />
         </div>
-        <div class="lg:col-span-2 relative" data-aos="flip-right">
+        <div class="lg:col-span-2 relative mt-5 md:mt-0 pb-5 md:pb-0" data-aos="flip-right">
           <img
             src="./assets/img/head-bg.png"
             class="absolute z-0 w-full h-full"
@@ -300,7 +311,7 @@
             Benefits for Artists:
           </h3>
           <div
-            class="grid grid-cols-2 gap-3 lg:gap-8 xl:gap-12 2xl:gap-16 p-3 lg:p-8 xl:p-12 2xl:p-16"
+            class="grid grid-cols-1 md:grid-cols-2 gap-3 lg:gap-8 xl:gap-12 2xl:gap-16 p-3 lg:p-8 xl:p-12 2xl:p-16"
           >
             <div>
               <h4
@@ -309,7 +320,7 @@
                 Fair Compensation
               </h4>
               <p
-                class="popins text-lg font-normal leading-[40px] text-[#C1C1C1]"
+                class="popins text-sm md:text-lg font-normal md:leading-[40px] text-[#C1C1C1]"
               >
                 Transparent royalties from sales and plays ensure fair rewards.
               </p>
@@ -321,7 +332,7 @@
                 Direct Sales
               </h4>
               <p
-                class="popins text-lg font-normal leading-[40px] text-[#C1C1C1]"
+                class="popins text-sm md:text-lg font-normal md:leading-[40px] text-[#C1C1C1]"
               >
                 Sell music NFTs straight to fans, maximizing revenue.
               </p>
@@ -333,7 +344,7 @@
                 Global Reach
               </h4>
               <p
-                class="popins text-lg font-normal leading-[40px] text-[#C1C1C1]"
+                class="popins text-sm md:text-lg font-normal md:leading-[40px] text-[#C1C1C1]"
               >
                 Expand your audience and market potential worldwide.
               </p>
@@ -345,7 +356,7 @@
                 Creative Control
               </h4>
               <p
-                class="popins text-lg font-normal leading-[40px] text-[#C1C1C1]"
+                class="popins text-sm md:text-lg font-normal md:leading-[40px] text-[#C1C1C1] pb-5"
               >
                 Maintain full control over your music and its distribution.
               </p>
@@ -364,7 +375,7 @@
             Benefits for Fans:
           </h3>
           <div
-            class="grid grid-cols-2 gap-3 lg:gap-8 xl:gap-12 2xl:gap-16 p-3 lg:p-8 xl:p-12 2xl:p-16 relative z-10"
+            class="grid grid-cols-1 md:grid-cols-2 gap-3 lg:gap-8 xl:gap-12 2xl:gap-16 p-3 lg:p-8 xl:p-12 2xl:p-16 relative z-10"
           >
             <div>
               <h4
@@ -373,7 +384,7 @@
                 Exclusive Access
               </h4>
               <p
-                class="popins text-lg font-normal leading-[40px] text-[#C1C1C1]"
+                class="popins text-sm md:text-lg font-normal md:leading-[40px] text-[#C1C1C1]"
               >
                 Own unique music NFTs and exclusive content.
               </p>
@@ -385,7 +396,7 @@
                 Earn Royalties
               </h4>
               <p
-                class="popins text-lg font-normal leading-[40px] text-[#C1C1C1]"
+                class="popins text-sm md:text-lg font-normal md:leading-[40px] text-[#C1C1C1]"
               >
                 Earn a share of royalties from your favorite music.
               </p>
@@ -397,7 +408,7 @@
                 Personal Connection
               </h4>
               <p
-                class="popins text-lg font-normal leading-[40px] text-[#C1C1C1]"
+                class="popins text-sm md:text-lg font-normal md:leading-[40px] text-[#C1C1C1]"
               >
                 Engage directly with artists through live events & digital meet
                 &greets.
@@ -410,7 +421,7 @@
                 Support Artists
               </h4>
               <p
-                class="popins text-lg font-normal leading-[40px] text-[#C1C1C1]"
+                class="popins text-sm md:text-lg font-normal md:leading-[40px] text-[#C1C1C1] pb-5"
               >
                 Directly support artists, contributing to their success & more
                 great music.
@@ -427,7 +438,7 @@
     </section>
     <!---- Benefit Section Code End  ---->
     <!---- Tokonomics Section Code Start  ---->
-    <section class="px-[5%] my-40" id="tokonomics">
+    <section class="px-[5%] md:my-40" id="tokonomics">
       <div class="flex flex-col lg:flex-row items-center gap-32">
         <div class="basis-1/2">
           <h2
@@ -826,11 +837,11 @@
         <div class="relative basis-1/4" data-aos="fade-right">
           <img
             src="./assets/img/contact-bg.png"
-            class="absolute z-0 2xl:-top-2 h-auto w-full 2xl:w-full"
+            class=" z-0 2xl:-top-2 h-auto w-full 2xl:w-full "
             alt=""
           />
           <div
-            class="flex flex-col justify-end pl-7 pt-52 md:pt-16 lg:pt-32 xl:pt-44 2xl:pt-72 lg:pb-10 xl:pb-0 gap-4 h-full"
+            class="flex flex-col justify-end absolute bottom-5 pl-7  gap-4 h-full "
           >
             <div class="flex items-center gap-3">
               <i class="fa-brands fa-twitter text-[#F2B419]"></i>
@@ -855,7 +866,7 @@
         <div class="basis-3/4 relative" data-aos="fade-left">
           <img
             src="./assets/img/getin-bg.png"
-            class="absolute top-5 lg:top-0 z-0 w-full h-full"
+            class="absolute top-5 md:top-0 z-0 w-full h-full glass-bg"
             alt=""
           />
           <h2
